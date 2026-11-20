@@ -41,6 +41,12 @@ The project proposes a scalable, secure and reliable enterprise network architec
 - Limited infrastructure scalability.
 - Lack of secure remote access.
 
+### Existing Network Topology
+
+![Existing Flat Network Topology](./screenshots/current-flat-topology.png)
+
+*Figure 1: Existing flat network architecture of LIBRIFY Public Library.*
+
 ## 03 / Project Objectives
 
 - Improve network performance and reliability.
@@ -77,6 +83,14 @@ flowchart TD
 | Distribution | Inter-VLAN routing and policy enforcement |
 | Access | End-device connectivity and network segmentation |
 
+### Original Hierarchical Network Topology
+
+![Hierarchical Network Topology](./screenshots/hierarchical-network-topology.png)
+
+*Figure 2: Proposed three-tier hierarchical network architecture.*
+
+The proposed architecture separates network responsibilities into Core, Distribution and Access layers to improve scalability, reliability and network management.
+
 ## 05 / VLAN Segmentation and IP Addressing
 
 The proposed infrastructure separates network devices and services into six dedicated VLANs.
@@ -111,6 +125,14 @@ The proposed logical network design includes:
 - Centralized DHCP and DNS services.
 - Dedicated server infrastructure.
 - VLAN-based traffic restrictions.
+
+### Original Logical Network Topology
+
+![Logical Network Topology](./screenshots/logical-network-topology.png)
+
+*Figure 3: Proposed logical network topology of LIBRIFY Public Library.*
+
+The logical design incorporates VLAN segmentation, inter-VLAN routing, centralized network services and redundant WAN connectivity.
 
 ## 07 / DHCP and DNS Services
 
@@ -160,6 +182,24 @@ The physical infrastructure proposal includes:
 | Layer 2 Switch | End-device connectivity |
 | UPS | Backup power supply |
 | FortiGate Firewall | Network security and traffic inspection |
+
+### Ground Floor Network Layout
+
+![Ground Floor Layout](./screenshots/ground-floor-layout.png)
+
+*Figure 4: Proposed ground floor physical network layout.*
+
+### First Floor Network Layout
+
+![First Floor Layout](./screenshots/first-floor-layout.png)
+
+*Figure 5: Proposed first floor physical network layout.*
+
+### Server Room Equipment Rack
+
+![Server Room Equipment Rack](./screenshots/server-room-rack.png)
+
+*Figure 6: Proposed server room equipment rack design.*
 
 ## 09 / Network Security Architecture
 
