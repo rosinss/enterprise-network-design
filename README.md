@@ -1,343 +1,474 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:191329,100:583A91&height=180&section=header&text=Enterprise%20Network%20Design&fontSize=30&fontColor=FFFFFF&fontAlignY=40)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:191329,100:583A91&height=200&section=header&text=Enterprise%20Network%20Design&fontSize=35&fontColor=FFFFFF&fontAlignY=40)
 
-![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-6345A8?style=for-the-badge&logo=cisco&logoColor=white)
-![Networking](https://img.shields.io/badge/Network-Engineering-6345A8?style=for-the-badge)
-![Security](https://img.shields.io/badge/Network-Security-6345A8?style=for-the-badge)
-![Infrastructure](https://img.shields.io/badge/Enterprise-Infrastructure-6345A8?style=for-the-badge)
+![Networking](https://img.shields.io/badge/Networking-Enterprise%20Architecture-6345A8?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Network%20Infrastructure-6345A8?style=for-the-badge)
+![Routing](https://img.shields.io/badge/Routing%20%26%20Switching-6345A8?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Academic%20Projects-6345A8?style=for-the-badge)
 
-*Design. Connect. Secure. Optimize.*
+*Designing Secure, Scalable and Reliable Network Infrastructure.*
 
 </div>
 
 ---
 
-## 01 / Project Overview
+## 01 / Repository Overview
 
-This repository showcases my academic and personal networking projects, focusing on enterprise network architecture, network security, scalability, traffic management and infrastructure reliability.
+This repository showcases my academic network design projects completed as a Bachelor of Computer Science (Hons.) Netcentric Computing student at Universiti Teknologi MARA (UiTM).
 
-| Project | Type | Focus |
-| --- | --- | --- |
-| EduStream Global | Individual Academic Case Study | Multi-site network architecture |
-| LIBRIFY Public Library | Group Academic Project | Enterprise infrastructure and security |
-| Secure Network Architecture | Personal Home Lab | Network simulation and configuration |
+The projects focus on enterprise network architecture, logical and physical network design, network security, routing and switching, infrastructure scalability and high availability.
+
+This portfolio demonstrates my foundational knowledge and technical understanding of designing secure and reliable network infrastructure based on organizational requirements.
 
 ## 02 / Project Objectives
 
 - Design scalable enterprise network architectures.
 - Apply hierarchical network design principles.
-- Implement logical network segmentation.
-- Develop structured IP addressing schemes.
-- Explore network security and access control.
-- Design high-availability network infrastructure.
-- Improve network performance through traffic prioritization.
-- Develop practical network configuration and troubleshooting skills.
+- Develop structured IPv4 addressing and subnetting plans.
+- Improve network security through segmentation and access control.
+- Optimize network performance using Quality of Service (QoS).
+- Design redundant and highly available infrastructure.
+- Plan centralized network services and monitoring.
+- Develop professional technical documentation.
 
-## 03 / Technologies and Technical Concepts
+## 03 / Technologies and Networking Concepts
+
+<div align="center">
+
+![IPv4](https://img.shields.io/badge/IPv4-6345A8?style=flat-square)
+![VLAN](https://img.shields.io/badge/VLAN-6345A8?style=flat-square)
+![OSPF](https://img.shields.io/badge/OSPF-6345A8?style=flat-square)
+![DHCP](https://img.shields.io/badge/DHCP-6345A8?style=flat-square)
+![DNS](https://img.shields.io/badge/DNS-6345A8?style=flat-square)
+![ACL](https://img.shields.io/badge/ACL-6345A8?style=flat-square)
+![QoS](https://img.shields.io/badge/QoS-6345A8?style=flat-square)
+![HSRP](https://img.shields.io/badge/HSRP-6345A8?style=flat-square)
+![VRRP](https://img.shields.io/badge/VRRP-6345A8?style=flat-square)
+![EtherChannel](https://img.shields.io/badge/EtherChannel-6345A8?style=flat-square)
+![RSTP](https://img.shields.io/badge/RSTP-6345A8?style=flat-square)
+![SD-WAN](https://img.shields.io/badge/SD--WAN-6345A8?style=flat-square)
+![FortiGate](https://img.shields.io/badge/FortiGate-6345A8?style=flat-square)
+![VPN](https://img.shields.io/badge/VPN-6345A8?style=flat-square)
+![SNMPv3](https://img.shields.io/badge/SNMPv3-6345A8?style=flat-square)
+![Wi-Fi 6](https://img.shields.io/badge/Wi--Fi%206-6345A8?style=flat-square)
+
+</div>
 
 | Category | Technologies and Concepts |
 | --- | --- |
-| Network Simulation | Cisco Packet Tracer |
-| Network Configuration | Cisco IOS |
-| Routing | OSPF, Inter-VLAN Routing |
-| Switching | VLANs, Trunking, EtherChannel, RSTP |
-| Addressing | IPv4, Subnetting |
-| Network Services | DHCP, DNS |
-| Security | ACLs, Firewall, IPS, 802.1X |
-| High Availability | HSRP, VRRP, Dual ISP |
-| Quality of Service | DSCP, LLQ, WFQ |
-| Remote Access | SSL VPN, MFA |
-| Network Monitoring | SNMPv3 |
-| WAN Technologies | SD-WAN |
+| Network Architecture | Three-Tier Hierarchical Network Design |
+| Network Segmentation | VLAN, Subnetting, Inter-VLAN Routing |
+| Routing and Switching | OSPF, Layer 2 and Layer 3 Switching |
+| Network Services | DHCP, DNS, IPv4 Addressing |
+| Network Security | Firewall Policies, ACL, IPS, 802.1X |
+| Secure Remote Access | SSL VPN, MFA |
+| Network Performance | QoS, DSCP, LLQ, CBWFQ |
+| High Availability | HSRP, VRRP, EtherChannel, RSTP |
+| WAN Connectivity | Dual ISP, SD-WAN |
+| Network Monitoring | SNMPv3, Centralized Monitoring |
+| Physical Infrastructure | Gigabit Ethernet, 10G Fiber, Cat6a, Wi-Fi 6 |
+
+## 04 / Featured Projects
+
+| Project | Project Type | Main Focus | Status |
+| --- | --- | --- | --- |
+| [EduStream Global](./edustream-global/README.md) | Individual Academic Project | Enterprise Networking, QoS, High Availability | Design Completed |
+| [LIBRIFY Public Library](./librify-public-library/README.md) | Group Academic Project | Network Security, Physical Infrastructure, Segmentation | Design Completed |
 
 ---
 
-## 04 / EduStream Global Network Design
+## 05 / EduStream Global Network Design
 
-### Project Background
+![Project](https://img.shields.io/badge/Project-Individual-6345A8?style=flat-square)
+![Course](https://img.shields.io/badge/Course-ITT550-6345A8?style=flat-square)
 
-EduStream Global is an online education platform that provides high-definition interactive learning services across multiple locations.
+### Project Overview
 
-The existing flat network architecture presented several challenges, including congestion, latency, jitter, limited scalability and single points of failure.
+An individual academic network design case study focusing on redesigning EduStream Global's existing network infrastructure to support reliable, scalable and high-performance online learning services.
 
-### Project Information
+The proposed architecture addresses network congestion, excessive broadcast traffic, high latency, limited scalability and single points of failure.
 
-| Item | Description |
+### Proposed Network Topology
+
+![EduStream Hierarchical Network Topology](./edustream-global/screenshots/proposed-hierarchical-topology.png)
+
+*Figure 1: Proposed hierarchical network architecture of EduStream Global.*
+
+### Key Design Features
+
+- Top-Down Network Design methodology.
+- Three-tier hierarchical architecture.
+- Multi-site network infrastructure.
+- Structured IPv4 addressing.
+- Seven dedicated VLANs.
+- OSPF dynamic routing.
+- Quality of Service for voice and video traffic.
+- Redundant network infrastructure.
+- Dual ISP connectivity.
+- High availability planning.
+
+### VLAN Segmentation
+
+| VLAN | Network |
 | --- | --- |
-| Course | ITT550 Network Design and Management |
-| Project Type | Individual Academic Case Study |
-| Methodology | Top-Down Network Design |
-| Headquarters | Medford |
-| Branch Offices | Grants Pass and Ashland |
-| Project Status | Design Proposal |
-
-### Proposed Multi-Site Architecture
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#302044','primaryTextColor':'#FFFFFF','primaryBorderColor':'#9675DC','lineColor':'#9675DC'}}}%%
-flowchart TD
-    A[EduStream Global] --> B[Medford Headquarters]
-    A --> C[Grants Pass Branch]
-    A --> D[Ashland Branch]
-    B --> E[Core Layer]
-    E --> F[Distribution Layer]
-    F --> G[Access Layer]
-    G --> H[End Devices]
-```
-
-### Proposed VLAN and IP Addressing
-
-| VLAN | Department or Service | Medford Subnet |
-| --- | --- | --- |
-| 10 | Management | 10.1.10.0/24 |
-| 20 | Administration | 10.1.20.0/24 |
-| 30 | Academic Services | 10.1.30.0/24 |
-| 40 | VoIP Services | 10.1.40.0/24 |
-| 50 | Video Streaming Servers | 10.1.50.0/24 |
-| 60 | Guest Network | 10.1.60.0/24 |
-| 70 | Data Centre | 10.1.70.0/24 |
-
-### Multi-Site Addressing
-
-| Location | Addressing Structure |
-| --- | --- |
-| Medford | 10.1.x.x |
-| Grants Pass | 10.2.x.x |
-| Ashland | 10.3.x.x |
+| 10 | Management |
+| 20 | Administration |
+| 30 | Academic Services |
+| 40 | VoIP |
+| 50 | Video Streaming |
+| 60 | Guest Network |
+| 70 | Data Centre |
 
 ### Quality of Service
 
-| Traffic Type | Priority | DSCP |
+| Traffic | DSCP | Priority |
 | --- | --- | --- |
-| VoIP | Highest | EF (46) |
-| HD Video | High | AF41 |
-| Learning Management System | Medium | Policy-based |
-| Email and Web Browsing | Low | Default |
+| VoIP | EF (46) | Highest |
+| HD Video | AF41 (34) | High |
+| LMS Traffic | Policy-based | Medium |
+| Best-Effort Traffic | Default (0) | Low |
 
-### Proposed Bandwidth Allocation
+### Proposed Performance Targets
 
-| Traffic Class | Allocation |
+| Metric | Target |
 | --- | --- |
-| VoIP and Video | 40% |
-| LMS and Signaling | 30% |
-| Management | 10% |
-| Best-Effort Traffic | 20% |
+| Network Availability | 99.99% |
+| VoIP Latency | Below 150 ms |
+| VoIP Jitter | Below 30 ms |
+| Packet Loss | Below 1% |
 
-### Proposed Redundancy Solutions
+The performance values represent proposed design objectives rather than measured implementation results.
 
-- Dual ISP connections.
-- Redundant core switches.
-- EtherChannel and link aggregation.
-- HSRP or VRRP gateway redundancy.
-- OSPF dynamic routing.
-- Server redundancy and backup power.
+### Project Documentation
 
-The proposed infrastructure was designed to support a target availability of 99.99%.
+- [Full Technical Documentation](./edustream-global/README.md)
+- [Original Network Topology Diagrams](./edustream-global/screenshots/)
 
 ---
 
-## 05 / LIBRIFY Public Library Network Design
+## 06 / LIBRIFY Public Library Network Design
 
-### Project Background
+![Project](https://img.shields.io/badge/Project-Group-6345A8?style=flat-square)
+![Course](https://img.shields.io/badge/Course-ITT550-6345A8?style=flat-square)
+![Team](https://img.shields.io/badge/Team-3%20Members-6345A8?style=flat-square)
 
-This group academic project focused on redesigning the network infrastructure of a public library to improve performance, security, reliability and scalability.
+### Project Overview
 
-### Project Information
+A collaborative academic network design project focusing on the redesign of LIBRIFY Public Library's existing network infrastructure.
 
-| Item | Description |
-| --- | --- |
-| Course | ITT550 Network Design and Management |
-| Project Type | Group Academic Project |
-| Team Size | 3 Members |
-| Architecture | Three-Tier Hierarchical Network |
-| Project Status | Design Proposal |
+The proposed architecture supports library staff, public computer users, wireless visitors, CCTV systems and digital library services.
 
-### Proposed Hierarchical Architecture
+The project emphasizes network segmentation, infrastructure security, physical network planning and business continuity.
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#302044','primaryTextColor':'#FFFFFF','primaryBorderColor':'#9675DC','lineColor':'#9675DC'}}}%%
-flowchart TD
-    A[Primary ISP] --> C[Firewall and WAN Edge]
-    B[Backup ISP] --> C
-    C --> D[Core Layer]
-    D --> E[Distribution Layer]
-    E --> F[Access Layer]
-    F --> G[Staff Devices]
-    F --> H[Public Computers]
-    F --> I[Guest Wi-Fi]
-    F --> J[Servers]
-    F --> K[CCTV]
-    F --> L[Management]
-```
+### Proposed Network Topology
 
-### Proposed Network Segmentation
+![LIBRIFY Hierarchical Network Topology](./librify-public-library/screenshots/hierarchical-network-topology.png)
 
-| VLAN | Purpose |
-| --- | --- |
-| 10 | Staff Network |
-| 20 | Public Computers |
-| 30 | Guest Network |
-| 40 | Servers |
-| 50 | CCTV |
-| 60 | Network Management |
+*Figure 2: Proposed hierarchical network architecture of LIBRIFY Public Library.*
+
+### Key Design Features
+
+- Three-tier hierarchical network architecture.
+- Six dedicated VLANs.
+- Structured IPv4 addressing.
+- Layer 3 switching and inter-VLAN routing.
+- Centralized DHCP and DNS services.
+- FortiGate next-generation firewall.
+- Intrusion Prevention System (IPS).
+- Secure remote access using SSL VPN and MFA.
+- Dual WAN connectivity with SD-WAN.
+- Centralized network monitoring using SNMPv3.
+- Enterprise Wi-Fi 6 infrastructure.
+- Physical network and structured cabling design.
+
+### VLAN and IP Addressing Plan
+
+| VLAN | Network | Subnet |
+| --- | --- | --- |
+| 10 | Staff | 192.168.10.0/24 |
+| 20 | Public | 192.168.20.0/24 |
+| 30 | Guest | 192.168.30.0/24 |
+| 40 | Servers | 192.168.40.0/24 |
+| 50 | CCTV | 192.168.50.0/24 |
+| 60 | Management | 192.168.60.0/24 |
+
+### Physical Network Infrastructure
+
+![LIBRIFY Ground Floor Network Layout](./librify-public-library/screenshots/ground-floor-layout.png)
+
+*Figure 3: Proposed ground floor physical network layout.*
+
+The physical infrastructure proposal includes:
+
+- Ground floor network layout.
+- First floor network layout.
+- Server room equipment rack.
+- Structured Cat6a cabling.
+- Fiber backbone connectivity.
+- Wireless access point placement.
+- Network switch placement.
+- CCTV infrastructure.
 
 ### Proposed Security Controls
 
-- Next-generation firewall.
-- Intrusion Prevention System (IPS).
-- VLAN-based network segmentation.
-- Zone-based firewall policies.
-- Web content filtering.
-- IEEE 802.1X authentication.
-- SSL VPN with multi-factor authentication.
-- Guest network isolation.
-- Centralized monitoring using SNMPv3.
+| Security Control | Purpose |
+| --- | --- |
+| Next-Generation Firewall | Advanced network traffic inspection |
+| IPS | Intrusion detection and prevention |
+| VLAN Segmentation | Network isolation |
+| Firewall Policies | Traffic access restrictions |
+| 802.1X | Network access authentication |
+| SSL VPN and MFA | Secure remote access |
+| Web Filtering | Restrict malicious or inappropriate websites |
+| SNMPv3 | Secure network monitoring |
 
-### Proposed Infrastructure Improvements
-
-- Gigabit Ethernet connectivity.
-- 10 Gigabit fiber uplinks.
-- Enterprise Wi-Fi 6.
-- Cat6a structured cabling.
-- Dual ISP connectivity.
-- SD-WAN automatic failover.
-- Redundant network links.
-- UPS backup power.
-- Centralized network management.
-
-### Design Targets
+### Proposed Performance Targets
 
 | Metric | Target |
 | --- | --- |
 | Network Availability | 99.9% |
-| ISP Failover | Less than 5 seconds |
+| Network Failover | Less than 2 seconds |
+| WAN Failover | Less than 5 seconds |
 | Catalogue Search Response | Less than 2 seconds |
-| Infrastructure Growth | 30% |
 | Wireless Coverage | 100% |
+| Future Infrastructure Growth | 30% |
 
-These metrics represent proposed design targets rather than measured deployment results.
+The performance values represent proposed design objectives rather than measured implementation results.
+
+### Project Documentation
+
+- [Full Technical Documentation](./librify-public-library/README.md)
+- [Original Network and Physical Infrastructure Diagrams](./librify-public-library/screenshots/)
 
 ---
 
-## 06 / Secure Network Architecture Home Lab
+## 07 / Enterprise Network Architecture
 
-### Project Background
-
-A personal networking lab focused on enterprise network segmentation, IP addressing, access control and essential network services using Cisco Packet Tracer.
-
-### Lab Information
-
-| Item | Description |
-| --- | --- |
-| Project Type | Personal Home Lab |
-| Environment | Cisco Packet Tracer |
-| Network Capacity | 50+ Users |
-| Focus | Network Configuration and Security |
-
-### Technical Scope
-
-- IPv4 addressing and subnet allocation.
-- Departmental VLAN segmentation.
-- Access Control Lists (ACLs).
-- HR and Finance network isolation.
-- DHCP address assignment.
-- DNS services.
-- Network connectivity testing.
-- Network troubleshooting.
-
-### Conceptual Network Architecture
+Both projects adopt the principles of hierarchical network design.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#302044','primaryTextColor':'#FFFFFF','primaryBorderColor':'#9675DC','lineColor':'#9675DC'}}}%%
 flowchart TD
-    A[Enterprise Router] --> B[Network Switch]
-    B --> C[HR Department]
-    B --> D[Finance Department]
-    B --> E[Other Departments]
-    B --> F[Network Services]
-    F --> G[DHCP]
-    F --> H[DNS]
-    A --> I[Access Control Policies]
+    A[Internet and WAN] --> B[Core Layer]
+    B --> C[Distribution Layer]
+    C --> D[Access Layer]
+    D --> E[User Devices]
+    D --> F[Wireless Clients]
+    D --> G[Network Resources]
 ```
 
----
-
-## 07 / Network Security Principles
-
-The projects explore multiple network security principles to protect enterprise resources and reduce unauthorized access.
-
-| Security Principle | Application |
+| Layer | Function |
 | --- | --- |
-| Network Segmentation | Isolate departments and services |
-| Least Privilege | Restrict unnecessary network access |
-| Defense in Depth | Apply multiple security controls |
-| Access Control | Restrict inter-network communication |
-| High Availability | Reduce single points of failure |
-| Network Monitoring | Improve infrastructure visibility |
-| Secure Remote Access | Protect remote network connections |
+| Core | High-speed network backbone and connectivity |
+| Distribution | Routing, traffic management and policy enforcement |
+| Access | End-device connectivity and VLAN assignment |
 
-## 08 / Network Design Methodology
+### Benefits
+
+- Improved network scalability.
+- Reduced network complexity.
+- Simplified troubleshooting.
+- Improved network performance.
+- Better fault isolation.
+- Flexible infrastructure expansion.
+
+## 08 / Network Security Principles
+
+The proposed network architectures incorporate security principles to protect organizational resources and reduce unauthorized access.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#302044','primaryTextColor':'#FFFFFF','primaryBorderColor':'#9675DC','lineColor':'#9675DC'}}}%%
 flowchart TD
-    A[Requirement Analysis] --> B[Network Planning]
-    B --> C[Logical Network Design]
-    C --> D[Physical Network Design]
-    D --> E[Security and Redundancy Planning]
-    E --> F[Simulation and Validation]
-    F --> G[Documentation]
+    A[Network Security] --> B[Network Segmentation]
+    A --> C[Access Control]
+    A --> D[Perimeter Security]
+    A --> E[Secure Authentication]
+    A --> F[Network Monitoring]
+
+    B --> G[VLAN and Subnets]
+    C --> H[Firewall Policies and ACL]
+    D --> I[NGFW and IPS]
+    E --> J[VPN and MFA]
+    F --> K[SNMPv3]
 ```
 
-## 09 / Technical Skills Developed
+### Security Concepts
 
-- Enterprise network design.
-- Network topology planning.
+- Defense-in-depth.
+- Principle of least privilege.
+- Network segmentation.
+- Secure remote access.
+- Traffic filtering.
+- Network isolation.
+- Centralized monitoring.
+- Infrastructure resilience.
+
+## 09 / Network Design Methodology
+
+The network design process focuses on understanding organizational requirements before selecting appropriate technical solutions.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#302044','primaryTextColor':'#FFFFFF','primaryBorderColor':'#9675DC','lineColor':'#9675DC'}}}%%
+flowchart TD
+    A[Business Requirements] --> B[Existing Network Analysis]
+    B --> C[Technical Requirements]
+    C --> D[Logical Network Design]
+    D --> E[Physical Network Design]
+    E --> F[Security Planning]
+    F --> G[Performance and Redundancy Planning]
+    G --> H[Technical Documentation]
+    H --> I[Proposed Network Architecture]
+```
+
+The methodology considers:
+
+- Organizational requirements.
+- Existing infrastructure limitations.
+- Network performance objectives.
+- Security requirements.
+- Budget and resource considerations.
+- Future scalability.
+- Business continuity.
+- Infrastructure maintainability.
+
+## 10 / Technical Skills Developed
+
+### Networking
+
+- Enterprise network architecture.
+- Logical and physical network design.
 - IPv4 addressing and subnetting.
 - VLAN segmentation.
 - Routing and switching concepts.
+- Inter-VLAN routing.
+- Network service planning.
+
+### Network Security
+
+- Firewall policy design.
 - Network access control.
-- Quality of Service planning.
-- High-availability architecture.
-- Network security design.
-- Network troubleshooting.
+- Defense-in-depth architecture.
+- Secure remote access planning.
+- Network isolation.
+- Intrusion prevention concepts.
+
+### Network Performance and Reliability
+
+- Quality of Service.
+- Traffic classification and prioritization.
+- Network redundancy.
+- High availability architecture.
+- WAN failover planning.
+- Network monitoring concepts.
+
+### Professional Skills
+
 - Technical documentation.
-- Infrastructure requirement analysis.
+- Network requirement analysis.
+- Infrastructure planning.
+- Problem-solving.
+- Collaborative project development.
+- Technical research.
 
-## 10 / Future Improvements
+## 11 / Repository Structure
 
-- [ ] Expand Cisco Packet Tracer simulations.
-- [ ] Implement OSPF routing in a dedicated practical lab.
-- [ ] Configure HSRP gateway redundancy.
-- [ ] Configure EtherChannel using LACP.
-- [ ] Perform network failover testing.
-- [ ] Implement advanced ACL policies.
-- [ ] Explore centralized network monitoring.
-- [ ] Experiment with IPv6 addressing.
+```text
+enterprise-network-design/
+├── README.md
+│
+├── edustream-global/
+│   ├── README.md
+│   └── screenshots/
+│       ├── README.md
+│       ├── current-flat-topology.png
+│       ├── proposed-hierarchical-topology.png
+│       └── redundant-high-availability.png
+│
+└── librify-public-library/
+    ├── README.md
+    └── screenshots/
+        ├── README.md
+        ├── current-flat-topology.png
+        ├── hierarchical-network-topology.png
+        ├── logical-network-topology.png
+        ├── ground-floor-layout.png
+        ├── first-floor-layout.png
+        └── server-room-rack.png
+```
+
+## 12 / Project Status
+
+### EduStream Global
+
+- [x] Existing network analysis.
+- [x] Network requirement analysis.
+- [x] Hierarchical network design.
+- [x] VLAN and IP addressing plan.
+- [x] QoS strategy.
+- [x] Network redundancy planning.
+- [x] Original network topology documentation.
+- [x] Academic design documentation.
+
+### LIBRIFY Public Library
+
+- [x] Existing network analysis.
+- [x] Network requirement analysis.
+- [x] Hierarchical network design.
+- [x] Logical network design.
+- [x] Physical network design.
+- [x] VLAN and IP addressing plan.
+- [x] Network security planning.
+- [x] WAN redundancy planning.
+- [x] Original infrastructure diagrams.
+- [x] Academic design documentation.
+
+## 13 / Future Improvements
+
+- [ ] Develop practical Cisco Packet Tracer simulations.
+- [ ] Configure VLANs and inter-VLAN routing.
+- [ ] Implement OSPF dynamic routing.
+- [ ] Configure and test DHCP and DNS services.
+- [ ] Implement firewall and access control policies.
+- [ ] Validate Quality of Service configurations.
+- [ ] Perform network redundancy and failover testing.
+- [ ] Develop a dedicated secure network home lab.
 - [ ] Explore network automation using Python.
-- [ ] Create additional network troubleshooting scenarios.
+- [ ] Explore virtual firewall environments.
+- [ ] Implement centralized network monitoring.
+- [ ] Document practical network testing results.
 
-## 11 / Learning Resources
+## 14 / Learning Resources
 
 - [Cisco Networking Academy](https://www.netacad.com/)
 - [Cisco Documentation](https://www.cisco.com/)
-- [Cisco Skills for All](https://skillsforall.com/)
+- [Fortinet Documentation](https://docs.fortinet.com/)
 - [Wireshark](https://www.wireshark.org/)
+- [GNS3](https://www.gns3.com/)
+- [RFC Editor](https://www.rfc-editor.org/)
+- ITT550 Network Design and Management coursework.
 
-## 12 / Disclaimer
+## 15 / Disclaimer
 
-This repository contains academic network design proposals and personal networking lab documentation created for educational and professional development purposes.
+This repository contains academic network design projects completed for educational and professional portfolio purposes.
 
-The EduStream Global and LIBRIFY Public Library projects represent proposed network architectures rather than verified production deployments.
+EduStream Global represents individual academic work, while LIBRIFY Public Library represents collaborative group academic work.
 
-The LIBRIFY Public Library network design reflects collaborative academic work.
+The network architectures, technologies and performance targets presented in this repository are proposed solutions and have not been validated through practical deployment or production testing.
+
+Original network diagrams are included as evidence of academic design work.
 
 ---
 
 <div align="center">
 
-*Explore. Learn. Connect. Secure.*
+### Design. Secure. Connect.
+
+*Building the foundation for secure and reliable enterprise networks.*
+
+![Networking](https://img.shields.io/badge/Passion-Network%20Engineering-6345A8?style=for-the-badge)
+![Cybersecurity](https://img.shields.io/badge/Interest-Cybersecurity-6345A8?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Mindset-Continuous%20Learning-6345A8?style=for-the-badge)
 
 [GitHub Profile](https://github.com/rosinss)
 
