@@ -29,6 +29,12 @@ The project focused on redesigning EduStream Global's existing network infrastru
 - Unstructured IP addressing.
 - Limited network scalability.
 
+### Existing Network Topology
+
+![Current Flat Network Topology](./screenshots/current-flat-topology.png)
+
+*Figure 1: Existing flat network architecture of EduStream Global.*
+
 ## 03 / Network Design Methodology
 
 The Top-Down Network Design approach was selected to ensure that business requirements were considered before selecting technical infrastructure.
@@ -50,6 +56,14 @@ flowchart TD
 | Core | High-speed network backbone |
 | Distribution | Inter-VLAN routing, QoS and policy enforcement |
 | Access | End-device connectivity and VLAN assignment |
+
+### Proposed Hierarchical Network Topology
+
+![Proposed Hierarchical Network](./screenshots/proposed-hierarchical-topology.png)
+
+*Figure 2: Proposed three-tier hierarchical network architecture.*
+
+The proposed architecture separates network functions into Core, Distribution and Access layers to improve scalability, network performance, manageability and fault isolation.
 
 ## 05 / Multi-Site IP Addressing
 
@@ -115,6 +129,14 @@ The proposed network incorporates:
 | RAID | Disk failure protection |
 | Load Balancing | Server workload distribution |
 | Backup Power | Improve service continuity |
+
+### Proposed High Availability Topology
+
+![Redundant High Availability Network](./screenshots/redundant-high-availability.png)
+
+*Figure 3: Proposed redundant network architecture supporting high availability.*
+
+The proposed architecture aims to reduce single points of failure and improve network resilience through redundant infrastructure and alternative network paths.
 
 ## 09 / Performance Requirements
 
